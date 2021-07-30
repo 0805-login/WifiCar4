@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic"
+    tools:context=".arm_controller">
+
+    <TextView
+        android:id="@+id/roboticArm_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/shape_controller"
+        android:text="   Arm_head  "
+        android:textColor="@color/color_ffffff"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/roboticArm1"
+        app:layout_constraintEnd_toEndOf="@+id/roboticArm1" />
+
+    <TextView
+        android:id="@+id/roboticArm3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="61dp"
+        android:background="@drawable/shape_controller"
+        android:text="       Arm3       "
+        android:textColor="@color/color_ffffff"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/init"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/roboticArm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_controller"
+        android:text="       Arm2      "
+        android:textColor="@color/color_ffffff"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@+id/roboticArm1"
+        app:layout_constraintTop_toBottomOf="@+id/roboticArm1" />
+
+    <TextView
+        android:id="@+id/roboticArm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/shape_controller"
+        android:text="       Arm1       "
+        android:textColor="@color/color_ffffff"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/init"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/shape_controller"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Spin180"
+        app:layout_constraintStart_toEndOf="@+id/roboticArm3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Spin30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/shape_controller"
+        android:text="       Spin30     "
+        android:textColor="@color/color_ffffff"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/roboticArm1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/Spin60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/shape_controller"
+        android:text="       Spin60     "
+        android:textColor="@color/color_ffffff"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@+id/Spin45"
+        app:layout_constraintTop_toBottomOf="@+id/Spin45" />
+
+    <TextView
+        android:id="@+id/Spin90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/shape_controller"
+        android:text="       Spin90     "
+        android:textColor="@color/color_ffffff"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@+id/Spin60"
+        app:layout_constraintTop_toBottomOf="@+id/Spin60" />
+
+    <TextView
+        android:id="@+id/Spin180"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="@drawable/shape_controller"
+        android:text="       Spin180   "
+        android:textColor="@color/color_ffffff"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/init"
+        app:layout_constraintTop_toBottomOf="@+id/Spin90" />
+
+    <TextView
+        android:id="@+id/Spin360"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_controller"
+        android:text="      Spin360   "
+        android:textColor="@color/color_ffffff"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@+id/Spin180"
+        app:layout_constraintTop_toBottomOf="@+id/Spin180" />
+
+    <TextView
+        android:id="@+id/Spin45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_controller"
+        android:text="       Spin45     "
+        android:textColor="@color/color_ffffff"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@+id/Spin30"
+        app:layout_constraintTop_toBottomOf="@+id/Spin30" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

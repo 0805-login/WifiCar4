@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/openWifi"
+        app:showAsAction="never"
+        android:title="打开Wifi" ></item>
+    <item android:id="@+id/closeWifi"
+        app:showAsAction="never"
+        android:title="关闭Wifi"></item>
+    <item android:id="@+id/connectWifi"
+        app:showAsAction="never"
+        android:title="连接Wifi"></item>
+    <item android:title="Controller"
+        android:id="@+id/Controller"
+        app:showAsAction="never"></item>
+    <item android:title="arm_Ctrl"
+        android:id="@+id/arm_Ctrl"
+        app:showAsAction="never"></item>
+    
+</menu>

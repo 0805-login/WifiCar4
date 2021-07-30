@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">智能搬运小车</string>
+    <string name="openWifi">打开wifi</string>
+    <string name="closeWifi">关闭wifi</string>
+    <string name="connectWifi">连接Wifi</string>
+    <string name="haveConnectedWifi">已连Wifi</string>
+    <string name="text_btn1">子按钮1</string>
+    <string name="text_btn2">子按钮2</string>
+    <string name="text_btn3">子按钮3</string>
+    <string name="text_btn4">子按钮4</string>
+    <string name="text_btn5">子按钮5</string>
+</resources>
